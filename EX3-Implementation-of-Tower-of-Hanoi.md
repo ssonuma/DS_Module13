@@ -4,12 +4,19 @@
 To write a C program to implement Tower of Hanoi
 
 ## Algorithm
+
 1.Start the program.
+
 2.Check if n is greater than 0.
+
 3.Recursively move n-1 disks from source (x) to auxiliary (z) using destination (y).
+
 4.Print the move of the n-th disk from source (x) to destination (y).
+
 5.Recursively move n-1 disks from auxiliary (z) to destination (y) using source (x).
+
 6.The function is called initially with TOH(n, 'A', 'B', 'C') where 'A', 'B', and 'C' are the rods.
+
 7.End
 
 ## Program:
